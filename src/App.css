@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+body{
+	background-color: #e8eaed;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.conteiner{
+	width: 100%;
+	text-align: center;
+	margin: 25px auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.field-div{
+	margin: 15px;
+	text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.map-div{
+	width: 70%;
+	margin: 30px auto;
+}
+label{
+	display: block;
+	font-weight: 700;
+	margin-bottom: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.select{
+	padding: 5px 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-email{
+	padding: 5px 15px;
+}
+
+.div-index{
+	border: 2px solid black;
+	min-width: 500px;
+	width: 50%;
+	margin: 10px auto;
+	border-radius: 25px;
+	background-color: lightgoldenrodyellow;
+	position: relative;
+}
+
+.span-map{
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	border: 1px solid black;
+	border-radius: 50%;
+	padding: 3px 7px;
+	background-color: rgb(190, 213, 235);
+	font-size: 18px;
+	font-weight: 700;
+	cursor: pointer;
+}
+.span-map:active{
+	background-color: red;
+}
+
+input{
+	border-radius: 15px;
+}
+.submit{
+	padding: 5px 15px;
+	background-color: transparent;
 }
